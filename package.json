@@ -1,0 +1,19 @@
+{
+  "name": "ai-careermatch",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node test_suite.js"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "mammoth": "^1.13.0",
+    "pdfjs-dist": "^6.4.299"
+  }
+}
